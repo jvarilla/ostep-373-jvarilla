@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+#include <stdint.h>
 #include "common.h"
 #include "common_threads.h"
 
@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
     max = atoi(argv[1]);
 
     pthread_t p1, p2;
-    printf("main: begin [counter = %d] [%x]\n", counter, 
-	   (unsigned int) &counter);
+    printf("main: begin [counter = %d] [%lu]\n", counter, 
+	   (uintptr_t) &counter);
     Pthread_create(&p1, NULL, mythread, "A"); 
     Pthread_create(&p2, NULL, mythread, "B");
     // join waits for the threads to finish
