@@ -5,8 +5,8 @@
 int
 main(int argc, char *argv[])
 {
-    printf("hello world (pid:%d)\n", (int) getpid());
-    int rc = fork();
+    printf("hello world (pid:%d)\n", (int) getpid()); // Print out parent process id
+    int rc = fork(); // The child process gets return code 0, the parent process gets the PID of the child process
     if (rc < 0) {
         // fork failed; exit
         fprintf(stderr, "fork failed\n");
