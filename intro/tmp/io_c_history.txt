@@ -1,0 +1,198 @@
+    1  gcc cpu.c
+    2  gcc
+    3  gcc -v
+    4  sudo apt install gcc
+    5  gcc -v
+    6  sudo apt install gcc
+    7  ls
+    8  ls -a
+    9  ls
+   10  ls -a
+   11  cd ..
+   12  ls
+   13  cd ..
+   14  ls
+   15  gcc cpu.c
+   16  sudo apt install gcc
+   17  gcc cpu.c
+   18  apt-get update
+   19  --fix missing
+   20  fix missing
+   21  sudo apt-get
+   22  sudo apt-get update
+   23  gcc cpu.c
+   24  sudo apt install gcc
+   25  gcc cpu.c
+   26  rm common.h 
+   27  sudo rm common.h
+   28  gcc cpu.c
+   29  ls
+   30  gcc cpu.c
+   31  ls
+   32  gcc cpu.c 
+   33  run a.out
+   34  ls
+   35  ls -a
+   36  gcc cpu.c 
+   37  ls
+   38  gcc cpu.c
+   39  gcc cpu.c –lpthread l
+   40  gcc cpu.c –lpthread
+   41  gcc cpu.c –l pthread
+   42  gcc pthread cpu.c
+   43  gcc -l pthread cpu.c
+   44  gcc -lpthread cpu.c
+   45  gcc cpu.c
+   46  gcc common.h
+   47  gcc cpu.c
+   48  gcc -pthread cpu.c
+   49  ls
+   50  a.out
+   51  run a.out
+   52  run a.out
+   53  a.out
+   54  ./a.out
+   55  ./a.out 1
+   56  gcc va.c va
+   57  ls
+   58  gcc va.c
+   59  ls
+   60  a.out
+   61  ./a.out
+   62  cd ..
+   63  ls
+   64  cd ,,
+   65  cd ..
+   66  ls
+   67  cd usr
+   68  ls
+   69  cd lib
+   70  ls
+   71  cd gcc
+   72  ls
+   73  pwd
+   74  cd ..
+   75  cd ~
+   76  ls
+   77  ls -a
+   78  ls
+   79  pwd
+   80  cd ..
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd ..
+   85  ls
+   86  cd ~
+   87  ls
+   88  ls -a
+   89  cat .bash_logout | less
+   90  gcc cpu.c
+   91  ls
+   92  gcc cpu.c
+   93  gcc cpu.c -pthread
+   94  ./a.out
+   95  ./a.out 1 ./a.out 2
+   96  ./a.out "Hi"
+   97  gcc "common threads".h -assert -pthread
+   98  gcc "common threads".h --assert -pthread
+   99  gcc io.c
+  100  a.out
+  101  ./a.out
+  102  gcc mem.c
+  103  gcc mem.c -pthread
+  104  a.out
+  105  ./a.out
+  106  ./a.out 1 2
+  107  ./a.out 2
+  108  gcc threads.v0.c
+  109  gcc threads.v0.c -pthread
+  110  ./a.out
+  111  ./a.out 2
+  112  gcc threads.v1.c -pthread
+  113  ./a.out 2
+  114  clear
+  115  gcc --save-temps -o cpu cpu.c -Wall -Werror
+  116  clear
+  117  gcc --save-temps -o cpu cpu.c -Wall -Werror -pthread
+  118  ./cpu.c
+  119  ./cpu/out
+  120  ./cpu.out "Hi"
+  121  ls
+  122  ./cpu.o "Hi"
+  123  ./cpu "Hi"
+  124  clear
+  125  gcc --save-temps -o io io.c -Wall -Werror
+  126  ./io
+  127  gcc --save-temps -o mem  mem.c -Wall -Werror
+  128  clear
+  129  gcc --save-temps -o mem  mem.c -Wall -Werror -pthread
+  130  ./mem 2
+  131  clear
+  132  gcc --save-temps -o threads.v0  threads.v0.c  -Wall -Werror -pthread
+  133  ./threads.v0
+  134  ./threads.v0 2
+  135  clear
+  136  gcc --save-temps -o threads.v1  threads.v1.c  -Wall -Werror -pthread
+  137  ./threads.v1 2
+  138  ls
+  139  cd ..
+  140  ls
+  141  ./cpu
+  142  ./cpu A
+  143  gcc --version
+  144  gdb --version
+  145  cpu a cpu b cpu c cpu d cpu e
+  146  ./cpu a ./cpu b ./cpu c ./cpu d ./cpu e
+  147  ./cpu a && ./cpu b && ./cpu c && ./cpu d && ./cpu e
+  148  ./cpu a || ./cpu b && ./cpu c && ./cpu d && ./cpu e
+  149  start ./cpu a && start ./cpu b
+  150  ls
+  151  ls -a
+  152  cd ,,'
+  153  ..
+  154  cd ..
+  155  ls
+  156  cd ..
+  157  ls
+  158  cd root
+  159  cd media
+  160  ls
+  161  ls -a
+  162  #include <stdio.h>
+  163  int main()
+  164  {     int num=123;     int sum=0;          sum=sum+num;     sum=sum+num;          printf("%d\n\r",sum);
+  165  clear
+  166  gcc --save-temps -o repeat repeat.c -Wall - Werror
+  167  gcc --save-temps -o repeat repeat.c -Wall -Werror
+  168  ./repeat
+  169  ./threads 2
+  170  ./threadsv0  2
+  171  ./threads.v0  2
+  172  ./threads.v0  7
+  173  ./threads.v0  1000
+  174  ./threads.v0  100000
+  175  cat unistd.h
+  176  ls
+  177  kill 77
+  178  kill 78
+  179  ls
+  180  gcc -o io io.c -Wall -Error
+  181  cd intro/
+  182  ls
+  183  gcc -o io io.c -Wall -Error
+  184  gcc -o io io.c -Wall -Werror
+  185  ls
+  186  ./io
+  187  mkdir tmp/
+  188  cd tmp
+  189  touch file
+  190  cd ..
+  191  ./io
+  192  ls
+  193  cd tmp
+  194  ls
+  195  cat file
+  196  cat history.txt
+  197  history
+  198  history > io_c_history.txt
